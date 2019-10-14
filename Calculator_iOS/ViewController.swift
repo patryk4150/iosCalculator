@@ -34,10 +34,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func osiem(_ sender: UIButton) {
-        self.zmienna = "8"!;
+     
     }
     @IBAction func dziewiec(_ sender: UIButton) {
-        self.zmienna = "9"!;
+     
     }
     
     @IBAction func dodaj(_ sender: UIButton) {
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var przycisk: UIButton!
-    var zmienna: String = "";
+    
     
     @IBAction func doWork(sender:UIButton){
         print(self.dane.text);
